@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clippath</title>
+    <style>
+        /* .clip{
+            clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+            width: 100px;
+            align-items: left;
+        } */
+
+        div#l1{
+            z-index: 3;
+            position:absolute;
+            top : 10px;
+            left: 10px;
+            width: 200px;
+            height: 150px;
+            background-color: blue;
+            border: 1px solid burlywood;
+            padding: 5px;
+
+        }
+        div#l2{
+            z-index: 2;
+            position:absolute;
+            top : 25px;
+            left: 25px;
+            width: 200px;
+            height: 150px;
+            background-color: rgb(255, 0, 132);
+            border: 1px solid rgb(118, 71, 9);
+            padding: 5px;
+
+        }
+        div#l3{
+            z-index: 1;
+            position:absolute;
+            top : 60px;
+            left: 40px;
+            width: 200px;
+            height: 150px;
+            background-color: rgb(53, 220, 203);
+            border: 1px solid rgb(78, 78, 121);
+            padding: 5px;
+
+        }
+    </style>
+</head>
+<body>
+    <!-- <img class = "clip" src="devendrabhattarai.png" > -->
+
+   
+
+    <div id ="l1">
+        <h1>hello</h1>
+    </div>
+    <div id ="l2">
+        <h1>hello</h1>
+    </div>
+    <div id ="l3">
+        <h1>hello</h1>
+    </div>
+</body>
+</html>
